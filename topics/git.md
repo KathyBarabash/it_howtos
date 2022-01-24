@@ -1,3 +1,6 @@
+# Git
+
+
 git remote add upstream git@igh:MCNM/observability.git
 git remote -v
 git branch --list
@@ -187,6 +190,23 @@ git push -u origin main
 http://www.henryxi.com/git-merge-rebase
 http://www.henryxi.com/git-delete-branch
 http://www.henryxi.com/git-sync-remote-tag-to-local
+
+● git status show the staging status and branch
+● git branch <name> create a branch <name> pointing to the current commit. You are left
+in the same branch or commit (detached state) you were.
+● git branch --contains <commit> List all branches containing <commit>
+● git checkout <name> switch to branch <name>.
+● git checkout -b <name> will create a branch and check it out
+	
+	● git reset --hard [<commit>] unstages all files and restore
+all (tracked) files to the state on commit (or HEAD)
+● git checkout -f Roughly the same
+	
+● git log show the commit history of the current branch / detached mode
+● git log <branch_name|tag|commit hash> show the commit history of a particular
+● git log --oneline --graph Show the history of commits (only title) in a graph
+● git log -p <branch_name|tag|commit hash> show commit history, including the diff of
+each commit
 
 
 http://www.henryxi.com/linux-often-used-commands-tutorial
