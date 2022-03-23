@@ -1,5 +1,9 @@
 # WSL setup
 
+Good to install and configure before WSL:
+- Windows terminal; [howto](howto-winterm.md) [link](https://github.com/KathyBarabash/howto/blob/main/topics/howto-winterm.md)
+- VScode 
+
 ## Install the __WSL__ 
 
 Installing WSL became easier with new Windows releases and the only thing to do is to run the following command __as administrator__
