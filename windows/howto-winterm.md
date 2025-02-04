@@ -1,3 +1,6 @@
+---
+dates: 2022-07-28
+---
 ## Install
 Install from the Microsoft Store
 > __TODO__ Update?
@@ -73,3 +76,15 @@ I did not go there.
 
 https://www.thushanfernando.com/posts/2020/windows-terminal-setup
 
+2022-07-28
+%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
+
+generate guid
+	Windows powershell
+		[guid]::NewGuid()
+	Linux
+		uuidgen
+		
+https://windowsterminalthemes.dev/
+
+winget install gsudo

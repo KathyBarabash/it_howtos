@@ -1,0 +1,44 @@
+# Things to do when you get a new lenovo computer
+https://gist.github.com/evanwill/b89cf804e569e27f5773537a4d2ac82c
+
+1. Uninstall everything from Lenovo! Its all sketchy bloatware and you don't need any of it at all. Win 10 has everything you need.
+2. Navigate over to C:\Program Files (x86)\Lenovo and look in all the directories there and click the unistall.exe files! Cause guess what? Lenovo put some even sleezer things in there that you can't uninstall via normal means. Then delete all the directories.
+3. Just to be sure--You dont need anything in this ^ directory! Customer Engagement Service (CCSDK) and others log your activities and send information to weird unsecure web locations! Yuck!
+4. Go into control panel, device manager, and update drivers for wifi, audio, video, intel power management.
+5. okay, it should be better now!
+
+curl cheat.sh/wget
+# To mirror a whole site locally:
+wget -mk <url>
+
+# How to add more to Git Bash on Windows
+https://gist.github.com/evanwill/0207876c3243bbb6863e65ec5dc3f058 
+
+https://software-carpentry.org/lessons/index.html
+
+
+Sync fork on commandline
+To sync your fork from the original repository is two steps:
+
+Setup the upstream remote (only have to do this one time)
+check current config: git remote -v
+add upstream remote (use the clone link from the original repo): git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+Sync fork
+git fetch upstream
+git checkout main
+git merge upstream/main
+You’re up-to-date locally, then update your fork on github, git push
+
+
+https://www.tecracer.com/blog/2023/01/devcontainers-on-windows-without-docker-for-desktop.html
+https://securecloud.blog/2021/12/07/wsl2-use-docker-with-vscode-without-docker-desktop/#set-docker-to-start-on-boot
+
+
+https://www.atlassian.com/git/tutorials/dotfiles
+
+
+Installing collected packages: wcwidth, sentencepiece, pure-eval, ptyprocess, mpmath, urllib3, typing_extensions, traitlets, tqdm, tornado, sympy, six, safetensors, regex, pyzmq, PyYAML, Pygments, psutil, prompt-toolkit, platformdirs, pexpect, parso, packaging, nvidia-nvtx-cu12, nvidia-nvjitlink-cu12, nvidia-nccl-cu12, nvidia-curand-cu12, nvidia-cufft-cu12, nvidia-cuda-runtime-cu12, nvidia-cuda-nvrtc-cu12, nvidia-cuda-cupti-cu12, nvidia-cublas-cu12, numpy, networkx, nest-asyncio, multidict, MarkupSafe, idna, fsspec, frozenlist, filelock, executing, decorator, debugpy, colorama, charset-normalizer, certifi, attrs, yarl, requests, python-dateutil, nvidia-cusparse-cu12, nvidia-cudnn-cu12, matplotlib-inline, jupyter_core, Jinja2, jedi, comm, asttokens, aiosignal, stack-data, nvidia-cusolver-cu12, jupyter_client, huggingface-hub, aiohttp, torch, tokenizers, openai, ipython, transformers, ipykernel, accelerate
+
+
+kathybarabash/LLM@hugging4me
+https://colab.research.google.com/drive/1i6TVexLElNWULZgXxBEST4APNt9dh0kK#scrollTo=pStpc2HIFY-9

@@ -1,10 +1,11 @@
-# __howto__
+# My IT related HowTos
 
-Set of __howto__ summaries for various tasks
+Collect wisdom while doing ... with all the pain.
 
 ## Topics
 
-- [WSL setup](topics/howto-wsl.md)
-- [Windows Terminal setup](topics/howto-winterm.md)
+- [git](topics/git.md)
+- [windows terminal](topics/winterm.md)
+- [wsl](topics/topics/wsl.md)
 
 ---

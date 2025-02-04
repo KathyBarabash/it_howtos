@@ -1,0 +1,4 @@
+1. goto
+	C:\Users\kathy\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets
+2. copy large files
+3. rename to .jpg
